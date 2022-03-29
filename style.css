@@ -1,14 +1,18 @@
-#button_sbmt{
-    margin-top: 20px;
-    margin-bottom: 20px;
+label{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-#btn_sort{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display:  none;
+#myCanvas{
+
+    background-color: green;
+    border-width: 10px;
+    border-style:ridge;
+
 }
 
-input{
-    margin: 10px;
+#hd3{
+
+    color: red;
+    background-color: white;
 }
