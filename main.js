@@ -14,7 +14,7 @@ function load_img(){
         hole_obj.scaleToWidth(50);
         hole_obj.scaleToHeight(50);
         hole_obj.set({
-            top:hole_x,
+            top:hole_y,
             left:hole_x
         });
         canvas.add(hole_obj);
@@ -47,7 +47,6 @@ function my_keydown(e){
         document.getElementById("hd3").innerHTML = "You Have Hit The Goal!";
         document.getElementById("myCanvas").style.borderColor = "red";
     }
-    else{
 		if(keyPressed == '38')
 		{
 			up();
@@ -68,7 +67,6 @@ function my_keydown(e){
 			right();
 			console.log("right");
 		}
-	}
 
 }
 
